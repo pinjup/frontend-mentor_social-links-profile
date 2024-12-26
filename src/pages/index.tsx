@@ -4,7 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 export default function Home() {
     return (
         <main className="flex h-screen w-full items-center justify-center">
-            <article className="flex h-[570px] w-80 flex-col items-center gap-7 rounded-xl bg-[#1f1f1f] p-6">
+            <article className="flex h-[570px] w-80 md:w-[375px] flex-col items-center gap-7 rounded-xl bg-[#1f1f1f] p-6">
                 <figure>
                     <Image
                         className="rounded-full"
